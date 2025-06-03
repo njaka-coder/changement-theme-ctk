@@ -1,0 +1,4 @@
+install customtkinter
+install SpeechRecognition
+install pyttsx3
+install youtube-search
