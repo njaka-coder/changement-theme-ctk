@@ -31,6 +31,6 @@ Ce projet utilise GitHub Actions pour vérifier automatiquement la syntaxe Pytho
 
 # Assistant Vocal
 
-![CI](https://github.com/njaka-coder/changement-theme-ctk/actions/workflows/run-customtkinter-app.yml/badge.svg)
+![CI](https://github.com/njaka-coder/changement-theme-ctk/actions/workflows/run_app.yml/badge.svg)
 
 Une petite application avec interface CustomTkinter qui permet de changer dynamiquement entre le mode clair et sombre.
