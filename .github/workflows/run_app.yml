@@ -19,8 +19,10 @@ jobs:
 
     - name: 📦 Installer les dépendances
       run: |
-        pip install customtkinter
+        pip install customtkinter flake8
 
-    - name: 🚀 Lancer le script principal (test)
-      run: |
-        python -m py_compile assistant.py
+    - name: ✅ Vérifier le code avec flake8
+      run: flake8 assistant.py
+
+    - name: 🧪 Vérifier la syntaxe Python
+      run: python -m py_compile assistant.py

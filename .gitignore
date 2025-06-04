@@ -7,3 +7,5 @@ __pycache__/
 *.log
 .idea/
 .vscode/
+intallation.txt
+translator.py
