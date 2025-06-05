@@ -9,7 +9,7 @@ app.geometry("500x400")
 
 #label d'instructions
 
-label = tk.CTkLabel(app,text="Cliquer pour changer le mode", font=("Helvetica",16))
+label = ctk.CTkLabel(app,text="Cliquer pour changer le mode", font=("Helvetica",16))
 label.pack(pady=30)
 
 # Fonctions pour changer le mode
