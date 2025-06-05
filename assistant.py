@@ -3,13 +3,13 @@ import customtkinter as ctk
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
-app= ctk.CTk()
+app = ctk.CTk()
 app.title("Changement de mode")
 app.geometry("500x400")
 
 #label d'instructions
 
-label=ctk.CTkLabel(app,text="Cliquer pour changer le mode", font=("Helvetica",16))
+label = tk.CTkLabel(app,text="Cliquer pour changer le mode", font=("Helvetica",16))
 label.pack(pady=30)
 
 # Fonctions pour changer le mode
